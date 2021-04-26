@@ -13,7 +13,7 @@ public class Scanner {
     private int start = 0;
     private int current = 0;
     private  int line = 1;
-    private static final Map<String, TokenType> keywords;
+    private static Map<String, TokenType> keywords;
 
     static {
         keywords = new HashMap<>();
